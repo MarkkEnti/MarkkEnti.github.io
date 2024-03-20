@@ -1,0 +1,11 @@
+    body {background-color: #ffcbcb; margin: 0px; text-align: left; font-size: 40px; border:16px solid #ff004d; font-weight: bold;}
+        header { text-align: center; background-color: #ffb5b5;}
+        header nav ul { display: flex; justify-content: space-around; padding: 0; margin: 0; font-size: 35px;  border-bottom: 16px solid #ff008e; font-family: "Love Light", cursive;}
+        ul { list-style: none;  padding: 0; font-family: "Loved by the King", cursive;}
+        a {  text-decoration: none;}
+        a:hover { color: green;  background-color: yellow;text-decoration: underline; }
+        footer { background-color: #fd72ad;  color: #e61c5d;   border: 16px dashed #7e2553;}
+        h1 { font-size: 75px;font-family: "Love Light", cursive;  }
+		form{font-family: "Loved by the King", cursive; }
+	.Right{float:left;}
+	.Left{float:right; }
