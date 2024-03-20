@@ -9,3 +9,9 @@
 	
 
 h2 {font-size: 35px;margin: 30px;}
+
+@keyframes cabecera {
+0% { color: #000000;}
+	100%{ color: pink;}
+	}
+h1 {animation-name:cabecera; animation-duration:2s;}

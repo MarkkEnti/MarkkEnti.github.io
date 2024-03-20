@@ -6,4 +6,16 @@
         a:hover { color: green;  background-color: yellow;text-decoration: underline; }
         footer { background-color: brown;  color: navy;   border: 16px dashed yellow;}
         h1 { font-size: 50px;font-family: 'Sixtyfour', sans-serif;  }
-	
+		
+		@keyframes cabecera {
+0% { color: red;  }
+15% {color: orange; }
+30% {color: yellow; }
+45% {color: green; font-size: 65px}
+60% {color: blue; }
+75% {color: purple; }
+	100%{ color: black; }
+	}
+
+
+h1 {animation-name:cabecera; animation-duration:10s;}
